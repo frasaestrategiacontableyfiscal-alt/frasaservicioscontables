@@ -1,0 +1,240 @@
+/* =========================
+   ESTILO GENERAL
+   ========================= */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #0a2a43;
+
+}
+
+/* =========================
+   HERO / ENCABEZADO
+   ========================= */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* ENCABEZADO */
+.header {
+  background-color: #000000;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 999px; /* esto lo hace ovalado */
+  background: #0a2a43;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #0a2a43;
+  margin-top: 15px;
+}
+
+.logo {
+  width: 500px; 
+  height: auto;
+ align-items: center !important;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 46px;
+  letter-spacing: 2px;
+  color: #0a2a43;
+}
+
+.subtitulo {
+  margin: 5px 0 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 999px;
+  background: #0a2a43;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #0a2a43;
+}
+
+/* =========================
+   SECCIONES
+   ========================= */
+.section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  background: #fff;
+  color: #0a2a43;
+  border-radius: 12px;
+}
+
+.section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #0a2a43;
+  padding-bottom: 10px;
+}
+
+/* =========================
+   SERVICIOS
+   ========================= */
+.servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #f6f6f6;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #0a2a43;
+}
+
+/* =========================
+   CONTACTO
+   ========================= */
+.contact p {
+  margin: 8px 0;
+}
+
+/* =========================
+   BOTÓN WHATSAPP
+   ========================= */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* =========================
+   RESPONSIVO
+   ========================= */
+@media (max-width: 768px) {
+  .servicios-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+  }
+}
+
+header {
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.header-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+
+.header-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center! important;
+  text-align: center !important;
+}
+
+.logo-small {
+  width: 120px !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.logo-small {
+  width: 120px;
+  height: auto;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.header {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  text-align: center !important;
+}
+
+/* ====== HEADER CENTRADO ====== */
+.hero {
+  background: #ffffff;
+  padding: 40px 20px;
+}
+
+.hero-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* CENTRA TODO */
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 500px; /* tamaño ideal */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 46px;
+  color: #0a2a43;
+}
+
+.subtitulo {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 999px;
+  background: #0a2a43;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
